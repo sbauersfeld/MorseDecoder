@@ -49,7 +49,7 @@ decoder       decoder(clk, in, letter, display, done);
 initial begin
     // Export timing information
     // Warning: slow!
-     $dumpfile("timing3_3.vcd");
+     $dumpfile("timing.vcd");
      $dumpvars;
 
     $readmemb("./signal_rom", signal);
